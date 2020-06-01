@@ -11,11 +11,10 @@
         public bool Admin { get; set; }
 
         
-        public Usuario(string idUsuario, string nombre, string contrasenia, bool admin)
+        public Usuario(string idUsuario, string nombreUsuario, string contrasenia, bool admin)
         {
             IdUsuario = idUsuario;
-            //cambio de nombreUsuario a nombre
-            NombreUsuario = nombre;
+            NombreUsuario = nombreUsuario;
             Contrasena = contrasenia;
             Admin = admin;
         }
